@@ -30,6 +30,9 @@ To use the patch follow this instructions:
 - 1: Indicate track's BPM.
 - 2: Load track to generate image from.
 - 3: Print image from track.
-- 4: Change resolution for smal or big image. (optional)
+
+Options:
+Lo-Res / Hi-Res: Change resolution to plrint a small (500 * 500px) or a big (2500 * 2500px) image
+Contrat: increases the value assigned to each square. While this allows to see more "invisible" elements, it also fakes the captired values.
 
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/ldr-03_sound-patterns.png)
