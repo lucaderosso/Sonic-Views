@@ -32,7 +32,7 @@ To use the patch follow this instructions:
 - 3: Print image from track.
 
 Options:
-Lo-Res / Hi-Res: Change resolution to plrint a small (500 * 500px) or a big (2500 * 2500px) image.
-Contrast: increases the value assigned to each square. While this allows to see more "invisible" elements, it also fakes the captired values.
+- Lo-Res / Hi-Res: Change resolution to plrint a small (500 * 500px) or a big (2500 * 2500px) image.
+- Contrast: increases the value assigned to each square. While this allows to see more "invisible" elements, it also fakes the captired values.
 
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/ldr-03_sound-patterns.png)
