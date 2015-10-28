@@ -13,21 +13,23 @@ The following images have been generated using 3 popular music songs. In some ca
 
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/exports/hires/HIRES_188_313_84_Rihanna%20Kanye%20West%20Paul%20McCartney%20-%20four-five%20second%20.mp3.jpg)
 
- *Rihanna, Kanye West, Paul McCartney,* **FourFiveSecond**
-
-Tempo: 100BPM - Length: 3:08
+ *Rihanna, Kanye West, Paul McCartney,* **FourFiveSecond** | Tempo: 100BPM | Length: 3:08
 
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/exports/hires/HIRES_238_436_55_Domenico%20Modugno%20-%20Vecchio%20Frak.mp3.jpg)
  
- *Domenico Modugno,* **Vecchio Frak**
-
-Tempo: 100BPM - Length: 3:08
+ *Domenico Modugno,* **Vecchio Frak** | Tempo: 120BPM | Length: 3:58
 
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/exports/hires/HIRES_376_846_23_The%20Chemical%20Brothers-It%20Began%20In%20Afrika.mp3.jpg)
 
- *The Chemical Brothers,* **It Began In Afrika**
-
-Tempo: 135BPM - Length: 6:16
+ *The Chemical Brothers,* **It Began In Afrika** | Tempo: 135BPM | Length: 6:16
 
 ## Patch
+
+To use the patch follow this instructions: 
+
+- 1: Indicate track's BPM.
+- 2: Load track to generate image from.
+- 3: Print image from track.
+- 4: Change resolution for smal or big image. (optional)
+
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/ldr-03_sound-patterns.png)
