@@ -1,5 +1,15 @@
 # v-03_sound-patterns
 
+A max/msp patch that generates squared images from level values of an audio samples. The patch takes into account the following 3 values:
+
+ - Length, in minutes
+ - BPM
+ - Signal's amplitude
+
+Signal's amplitude values are converted on a range going from 0 to 255. Each value generates a square, which appearence goes from black (0) to white (255). Width and height of the image are chosen to be identical, the density of suqares filling the area is calculated by multiplying the audio file's length, by the BPM of the file. Needless to say, the audio source has to have a BPM to be able to follow this rule. Alternatively the BPM value can be used to set the density in an arbitrary way, for example if the file is 3 minute long and BPM is set to 3, the area will be filled with 9 (3*3) squares.
+
+## Examples 
+The following images have been generated using 3 popular music songs. In some cases, like Modugno's Vecchio Frak you'll be able to see very few white suqares. While this song is very quiet, it doesn't mean that it's mostly silent, simply most of the values are very low and generate a very dark output that we perceive as black.
 
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/exports/hires/HIRES_188_313_84_Rihanna%20Kanye%20West%20Paul%20McCartney%20-%20four-five%20second%20.mp3.jpg)
 
@@ -7,4 +17,5 @@
 
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/exports/hires/HIRES_376_846_23_The%20Chemical%20Brothers-It%20Began%20In%20Afrika.mp3.jpg)
 
+## Patch
 ![alt tag](https://github.com/lucaderosso/v-03_sound-patterns/blob/master/ldr-03_sound-patterns.png)
